@@ -1,0 +1,123 @@
+body {
+    background: #006bb6;
+    color: white;
+}
+/* Navbar only styles */
+.nav-custom {
+    background: #fdb927;
+}
+.links {
+    color: #006bb6;
+    font-weight: 500;
+}
+.links:hover{
+    color: #006bb6;
+}
+.links:focus{
+    color: #006bb6;
+}
+
+/* Jumbotron only styles */
+.jumbo {
+    text-align: center;
+    align-items: center;
+    padding: 10em 0 10em 0;
+    height: 800px;
+    color: #006bb6;
+}
+.btn-jumbo {
+    background: #fdb927;
+    margin: 1em;
+    color: #006bb6;
+}
+
+/* hexagon only styles */
+.hexagon {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: #fdb927;
+    margin: 80px auto;
+    align-items: center;
+}
+.hexagon::before,
+.hexagon::after {
+    content: "";
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.hexagon::before {
+    bottom: 100%;
+    border-bottom: 50px solid #fdb927;
+}
+.hexagon::after {
+    top: 100%;
+    border-top: 50px solid #fdb927;
+}
+.hex-heading {
+    text-align: center;
+    margin-bottom: .5em;
+}
+.hex-text {
+    padding: 0 2em 0 2em;
+    text-align: center;
+}
+
+
+
+/* Project section styles */
+.one-project {
+    background-color: #fdb927;
+    color: #006bb6;
+}
+.btn-view {
+    margin: 0 1em;
+    background: #006bb6;
+    color: white;
+}
+.project-header {
+    text-align: center;
+    padding-bottom: .5em;
+    border-bottom: 3px solid #3AE384;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+}
+.responsive {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin-right: -50%;
+    font-size: 3.5em;
+    color: white;
+}
+.right {
+    padding-left: 1em;
+    margin-left: .5em;
+}
+
+
+/* Contact form */
+.btn-contact {
+    background: #fdb927;
+    color: #006bb6;
+    width: 15em;
+    font-weight: 600;
+}
+
+
+
+/* botttom of page */
+.bottom {
+    font-size: 2em;
+    color: #fdb927;
+    text-align: center;
+    margin: 1em;
+}

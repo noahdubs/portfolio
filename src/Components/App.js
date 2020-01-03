@@ -1,21 +1,9 @@
 import React from 'react'
-import About from './About' 
-import Contact from './Contact'
-import Footer from './Footer'
-import Jumbotron from './Jumbotron'
-import Navbar from './Navbar'
-import Projects from './Projects'
+import Main from './Main'
 
 const App = () => {
     return (
-        <div>
-            <Navbar />
-            <Jumbotron />
-            <About />
-            <Projects />
-            <Contact />
-            <Footer />
-        </div>
+        <Main />
     )
 }
 

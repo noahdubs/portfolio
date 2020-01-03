@@ -1,20 +1,42 @@
 body {
-    background: #006bb6;
-    color: white;
+    background: #FFE000;
+    color: #006bb6;
 }
 /* Navbar only styles */
 .nav-custom {
-    background: #fdb927;
+    background: #006bb6;
+    height: 80px;
+    padding-bottom: 25px;
+    color: #FFE000;
 }
-.links {
-    color: #006bb6;
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+.nav-right-side {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-brand {
     font-weight: 500;
+    padding-top: 20px;
 }
-.links:hover{
-    color: #006bb6;
+.list-item {
+    padding: 0 .5em;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
 }
-.links:focus{
-    color: #006bb6;
+.list-item:hover {
+    cursor: pointer;
+}
+.code-icon {
+    font-size: 25px;
+}
+.under-h-p {
+    font-size: 13px;
+    margin-left: 40px;
 }
 
 /* Jumbotron only styles */
@@ -22,13 +44,15 @@ body {
     text-align: center;
     align-items: center;
     padding: 10em 0 10em 0;
-    height: 800px;
-    color: #006bb6;
+    background-color: #FFE000;
 }
 .btn-jumbo {
-    background: #fdb927;
+    background: #006bb6;
     margin: 1em;
-    color: #006bb6;
+    color: #FFE000;
+}
+.jumbo-heading {
+    font-size: 60px;
 }
 
 /* hexagon only styles */
@@ -36,7 +60,7 @@ body {
     position: relative;
     width: 200px;
     height: 100px;
-    background: #fdb927;
+    background: #006bb6;
     margin: 80px auto;
     align-items: center;
 }
@@ -49,11 +73,11 @@ body {
 }
 .hexagon::before {
     bottom: 100%;
-    border-bottom: 50px solid #fdb927;
+    border-bottom: 50px solid #006bb6;
 }
 .hexagon::after {
     top: 100%;
-    border-top: 50px solid #fdb927;
+    border-top: 50px solid #006bb6;
 }
 .hex-heading {
     text-align: center;
@@ -68,13 +92,14 @@ body {
 
 /* Project section styles */
 .one-project {
-    background-color: #fdb927;
-    color: #006bb6;
+    background-color: #006bb6;
+    color: #FFE000;
+    margin: 2em 0 2em 0;
 }
 .btn-view {
     margin: 0 1em;
-    background: #006bb6;
-    color: white;
+    background: #FFE000;
+    color: #006bb6;
 }
 .project-header {
     text-align: center;
@@ -102,7 +127,24 @@ body {
     padding-left: 1em;
     margin-left: .5em;
 }
-
+.tech-used {
+    display: flex;
+}
+.tech-list {
+    list-style: none;
+    font-size: 18px;
+    margin-left: 1.5em;
+    margin: 1em 1em 1.5em .5em;
+}
+.card-body {
+    font-size: 25px;
+}
+.card-title {
+    font-size: 50px;
+}
+.img-fluid {
+    border: 2px solid #FFE000;
+}
 
 /* Contact form */
 .btn-contact {
@@ -117,7 +159,7 @@ body {
 /* botttom of page */
 .bottom {
     font-size: 2em;
-    color: #fdb927;
+    color: #006bb6;
     text-align: center;
     margin: 1em;
 }

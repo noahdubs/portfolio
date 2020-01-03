@@ -9,15 +9,15 @@ const Contact = () => {
                     <h1>Contact</h1>
                     <form action="">
                         <div className="form-group">
-                            <label for="name">Your name</label>
+                            <label>Your name</label>
                             <input type="text" className="form-control" name="name"/>
                         </div>
                         <div className="form-group">
-                            <label for="email">Your email</label>
+                            <label>Your email</label>
                             <input type="text" className="form-control" name="email"/>
                         </div>
                         <div className="form-group">
-                            <label for="message">Your message</label>
+                            <label>Your message</label>
                             <textarea rows="5" type="text" className="form-control" name="message"></textarea>
                         </div>
                         <div className="form-group">

@@ -11,13 +11,13 @@ const Projects = () => {
                             <h1 className="card-title">Workout App</h1>
                             <div className="row">
                                 <div className="col-md-4">
-                                    <img src="https://i.imgur.com/YvOSdYO.png" className="img-fluid" />
+                                    <img src="https://i.imgur.com/YvOSdYO.png" className="img-fluid pro-pic" alt="workout app landing page"/>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="https://i.imgur.com/i0prxz5.png" className="img-fluid" />
+                                    <img src="https://i.imgur.com/i0prxz5.png" className="img-fluid pro-pic" alt="workout app add a new workout"/>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="https://i.imgur.com/SrOVVrB.png" className="img-fluid" />
+                                    <img src="https://i.imgur.com/SrOVVrB.png" className="img-fluid pro-pic" alt="workout app all workouts"/>
                                 </div>
                             </div>
                             <p className="card-body">A workout based site where users can create their own workouts and exercises</p>
@@ -35,18 +35,17 @@ const Projects = () => {
                 </div>
                 <div className="col-md-12">
                     <div className="card one-project">
-                        <img className="card-img-top" />
                         <div className="card-body">
                             <h1 className="card-title">Blacktop Blog</h1>
                             <div className="row">
                                 <div className="col-md-4">
-                                    <img src="https://i.imgur.com/D9ek8Gw.png" className="img-fluid" />
+                                    <img src="https://i.imgur.com/D9ek8Gw.png" className="img-fluid pro-pic" alt="blacktop blog landing"/>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="https://i.imgur.com/pvpOs4C.png" className="img-fluid" />
+                                    <img src="https://i.imgur.com/pvpOs4C.png" className="img-fluid pro-pic" alt="blacktop blog user profile"/>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="https://i.imgur.com/UdWMBWx.png" className="img-fluid" />
+                                    <img src="https://i.imgur.com/UdWMBWx.png" className="img-fluid pro-pic" alt="blacktop blog post"/>
                                 </div>
                             </div>
                             <p className="card-body">A blog site where users can make blog posts and leave comments on posts</p>

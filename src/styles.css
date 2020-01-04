@@ -1,13 +1,15 @@
-body {
+body{
     background: #FFE000;
     color: #006bb6;
 }
+
 /* Navbar only styles */
 .nav-custom {
     background: #006bb6;
     height: 80px;
     padding-bottom: 25px;
     color: #FFE000;
+    z-index: 9999;
 }
 .navbar-container{
     display: flex;
@@ -22,6 +24,10 @@ body {
     font-weight: 500;
     padding-top: 20px;
 }
+#nav-brand {
+    color: #FFE000;
+    font-weight: 700;
+}
 .list-item {
     padding: 0 .5em;
     list-style: none;
@@ -32,27 +38,43 @@ body {
     cursor: pointer;
 }
 .code-icon {
-    font-size: 25px;
+    font-size: 40px;
+    margin-right: 15px;
 }
 .under-h-p {
     font-size: 13px;
-    margin-left: 40px;
+}
+.navbar-collapse {
+    background-color: #006bb6;
+}
+.resume-link {
+    color: #FFE000;
+}
+.resume-link:hover {
+    color: #FFE000;
+    text-decoration: none;
 }
 
 /* Jumbotron only styles */
 .jumbo {
-    text-align: center;
     align-items: center;
-    padding: 10em 0 10em 0;
+    text-align: center;
+    padding: 16em 0 16em 0;
     background-color: #FFE000;
 }
-.btn-jumbo {
-    background: #006bb6;
-    margin: 1em;
-    color: #FFE000;
-}
 .jumbo-heading {
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.jumbo-under {
+    font-weight: 700;
+}
+.btn-work {
+    background-color: #006bb6;
+    width: 250px;
+    margin-top: 1em;
+    color: #FFE000;
+    font-weight: 700;
 }
 
 /* hexagon only styles */
@@ -87,6 +109,36 @@ body {
     padding: 0 2em 0 2em;
     text-align: center;
 }
+.hex-row {
+    padding-top: 4em;
+}
+/* About me page styles */
+
+#about-pic {
+    border: 12px solid #006bb6;
+    border-radius: 10px;
+}
+.personal-info {
+    display: flex;
+    align-items: center;
+}
+.about-me {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4em 0 4em 0;
+    border-top: 12px solid #006bb6;
+    border-bottom: 12px solid #006bb6;
+    border-radius: 10px;
+}
+.about-heading {
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+}
+.about-h {
+    font-weight: 600;
+}
+
 
 
 
@@ -100,6 +152,7 @@ body {
     margin: 0 1em;
     background: #FFE000;
     color: #006bb6;
+    width: 10.5em;
 }
 .project-header {
     text-align: center;
@@ -134,7 +187,7 @@ body {
     list-style: none;
     font-size: 18px;
     margin-left: 1.5em;
-    margin: 1em 1em 1.5em .5em;
+    margin: 1em .5em 1.5em .5em;
 }
 .card-body {
     font-size: 25px;
@@ -142,24 +195,20 @@ body {
 .card-title {
     font-size: 50px;
 }
-.img-fluid {
+.pro-pic {
     border: 2px solid #FFE000;
-}
-
-/* Contact form */
-.btn-contact {
-    background: #fdb927;
-    color: #006bb6;
-    width: 15em;
-    font-weight: 600;
+    margin-top: 1em;
 }
 
 
 
-/* botttom of page */
+/* footer styles */
+.footer-row {
+    padding-top: 3em;
+}
 .bottom {
     font-size: 2em;
     color: #006bb6;
     text-align: center;
-    margin: 1em;
+    margin: 0 1em 1em 1em;
 }

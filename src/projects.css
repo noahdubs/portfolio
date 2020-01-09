@@ -1,0 +1,57 @@
+/* Project section styles */
+.one-project {
+    background-color: #006bb6;
+    color: #FFE000;
+    margin: 2em 0 2em 0;
+}
+.btn-view {
+    margin: 0 1em;
+    background: #FFE000;
+    color: #006bb6;
+    width: 10.5em;
+}
+.project-header {
+    text-align: center;
+    padding-bottom: .5em;
+    border-bottom: 3px solid #3AE384;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+}
+.responsive {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin-right: -50%;
+    font-size: 3.5em;
+    color: white;
+}
+.right {
+    padding-left: 1em;
+    margin-left: .5em;
+}
+.tech-used {
+    display: flex;
+}
+.tech-list {
+    list-style: none;
+    font-size: 18px;
+    margin-left: 1.5em;
+    margin:  .5em;
+}
+.card-body {
+    font-size: 25px;
+}
+.card-title {
+    font-size: 50px;
+}
+.pro-pic {
+    border: 2px solid #FFE000;
+    margin-top: 1em;
+}

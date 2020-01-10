@@ -3,7 +3,8 @@
     height: 10%;
     z-index: 9999;
     background: transparent;
-    color: black;
+    color: #757575;
+    box-shadow: 0 8px 8px -5px #757575;
 }
 .navbar-container{
     display: flex;
@@ -14,13 +15,18 @@
     display: flex;
     justify-content: flex-end;
 }
-.navbar-brand {
-    font-weight: 500;
-    font-size: 25px;
-}
+
 #nav-brand {
     font-weight: 700;
+    font-family: 'Yellowtail', cursive;
+    font-size: 45px;
+    color: #0078FF;
+
 }
+#nav-brand:hover{
+    color: #757575;
+}
+
 .list-item {
     padding: 0 .5em;
     list-style: none;
@@ -43,7 +49,7 @@
 
 }
 .resume-link {
-    color: black;
+    color: #757575;
 }
 .resume-link:hover {
     color: #0078FF !important;

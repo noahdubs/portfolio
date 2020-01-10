@@ -1,18 +1,13 @@
 import React from 'react'
 import Items from './Items'
 
-const Navbar = props => {
-    let activeStyles = {home: {}, about: {}, projects: {}, resume: {}}
-    if(props.currentStr === "About"){
-        activeStyles.about = {color: '#0078FF'}
-    } else if(props.currentStr === "Projects"){
-        activeStyles.projects = {color: '#0078FF'}
-    } 
-    console.log(activeStyles)
+const LandingNav = props => {
+    let activeStyles = {home: {color:"#0078FF"}, about: {}, projects: {},
+     resume: {color: "white"}}
     return (
-        <nav className="navbar nav-custom navbar-expand-md navbar-dark">
+        <nav className="navbar landing-nav navbar-expand-md navbar-dark">
             <div className="container navbar-container">
-                <li className="navbar-brand" id="nav-brand">NW </li>
+                <li className="navbar-brand" id="nav-brand-l">NW </li>
                 <button className="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon toggler"></span>
                 </button> 
@@ -22,9 +17,7 @@ const Navbar = props => {
                 />
             </div>
         </nav>
-        
     )
 }
 
-
-export default Navbar
+export default LandingNav 

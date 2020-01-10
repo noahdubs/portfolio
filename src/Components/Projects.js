@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './navbar/Navbar'
 
-const Projects = () => {
+const Projects = props => {
     return (
-        <div className="container">
+        <div className="shade-div">
+            <Navbar 
+                handleClick={props.handleClick}
+                currentStr={props.currentStr}
+            />
             <div className="row">
                 <div className="col-md-12">
                     <div className="card one-project">

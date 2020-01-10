@@ -1,9 +1,15 @@
 import React from 'react'
 import Personal from './Personal'
 import Hexagons from './Hexagons'
-const About = () => {
+import Navbar from '../navbar/Navbar'
+
+const About = props => {
     return (
-        <div className="container about">
+        <div className="">
+            <Navbar 
+                handleClick={props.handleClick}
+                currentStr={props.currentStr}
+            />
             <Personal />
             <Hexagons />
         </div>       

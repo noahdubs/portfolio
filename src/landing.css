@@ -46,11 +46,13 @@
 .landing-h {
     font-size: 70px;
     font-weight: 600;
+    font-family: 'Yellowtail', cursive;
 }
 
 .landing-p {
     font-size: 25px;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 
 .landing-btn {
@@ -64,7 +66,7 @@
     padding: 8px 50px;
 }
 .landing-btn:hover {
-    border: 3px solid #0078FF;
+    border: 5px solid #0078FF;
     animation: .5s ease 0s makeBtnBigger forwards;
 }
 
@@ -73,7 +75,24 @@
         padding: 8px 50px;
     }
     100% {
-        padding: 15px 60px;
+        padding: 8px 70px;
         border-radius: 20px;
     }
+}
+.landing-icon {
+    margin-left: 10px;
+}
+
+/* landing nav styles */
+.landing-nav {
+    height: 10%;
+    z-index: 9999;
+    background: transparent;
+    color: white;
+}
+#nav-brand-l {
+    font-weight: 700;
+    font-family: 'Yellowtail', cursive;
+    font-size: 45px;
+    color: #ffffff;
 }

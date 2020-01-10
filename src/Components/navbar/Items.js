@@ -8,8 +8,8 @@ const Items = props => {
             <ul className="navbar-nav navbar-right">
                 <li className="list-item" name="Home" style={props.landingStyles, props.activeStyles.home} onClick={props.handleClick}>Home</li>
                 <li className="list-item" name="About" style={props.landingStyles, props.activeStyles.about} onClick={props.handleClick}>About</li>
-                <li className="list-item" name="Projects" style={props.activeStyles.projects, props.landingStyles} onClick={props.handleClick}>Projects</li>
-                <li className="list-item"><a href={Pdf} style={props.landingStyles} className="resume-link">Resume</a></li>
+                <li className="list-item" name="Projects" style={props.landingStyles, props.activeStyles.projects} onClick={props.handleClick}>Projects</li>
+                <li className="list-item"><a href={Pdf} style={props.activeStyles.resume} className="resume-link">Resume</a></li>
             </ul>
         </div>
     )

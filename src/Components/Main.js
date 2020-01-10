@@ -1,19 +1,23 @@
 import React from 'react'
-import Navbar from './navbar/Navbar'
 import Landing from './Landing'
 import About from './about/About'
 import Projects from './Projects'
-import Footer from './Footer'
+import ReactCssTransitionGroup from 'react-addons-css-transition-group'
 
 class Main extends React.Component {
     state = {
-        current: <Landing />,
+        current: 
+        <Landing 
+            key={0}
+            handleClick={this.handleClick}
+            currentStr={this.currentStr}      
+        />,
         currentStr: "Home"
     }
 
     componentDidMount = () => {
         this.setState({
-            current: <Landing handleClick={this.handleClick}/>
+            current: <Landing handleClick={this.handleClick} currentStr={this.currentStr} key={0}/>
         })
     }
 
@@ -21,9 +25,9 @@ class Main extends React.Component {
         const clicked = event.target.attributes.name.value
         let newComponent = <Landing handleClick={this.handleClick}/>
         if(clicked === "About"){
-            newComponent = <About />
+            newComponent = <About key={1} handleClick={this.handleClick} currentStr={clicked}/>
         } else if(clicked === "Projects"){
-            newComponent = <Projects />
+            newComponent = <Projects key={2} handleClick={this.handleClick} currentStr={clicked}/>
         } 
         this.setState({
             current:newComponent,
@@ -31,37 +35,18 @@ class Main extends React.Component {
         })
     }
 
-    checkLanding = () => {
-        const current = this.state.current
-        const currentStr = this.state.currentStr
-        if(currentStr === "Home"){
-            return (
-                <div className="landing-div">
-                    <Navbar 
-                        handleClick={this.handleClick}
-                        currentStr={currentStr}
-                    />
-                    <Landing 
-                        handleClick={this.handleClick}
-                    />
-                </div>
-            )
-        } else {
-            return (
-                <div className="main-div">
-                    <Navbar 
-                        handleClick={this.handleClick}
-                        currentStr={currentStr}
-                    />
-                    {current}
-                </div>
-            )
-        }
-    }
 
     render() {
+        let current = this.state.current
         return (
-            this.checkLanding()
+            <ReactCssTransitionGroup
+                transitionName="switch"
+                transitionEnterTimeout={800}
+                transitionLeaveTimeout={500}>
+                
+                {current}
+
+            </ReactCssTransitionGroup>
         )
     }
 }

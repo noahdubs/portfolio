@@ -6,6 +6,5 @@ import './navbar.css'
 import './landing.css'
 import './about.css'
 import './projects.css'
-import './footer.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));

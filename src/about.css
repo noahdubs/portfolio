@@ -1,62 +1,92 @@
 /* About me page styles */
-
-#about-pic {
-    border: 12px solid #006bb6;
-    border-radius: 10px;
+.about-container {
+    margin-top: 3em;
 }
+.personal-row {
+    border-bottom: 1px solid #757575;
+}
+
+/* text */
 .personal-info {
-    display: flex;
-    align-items: center;
+    position: relative;
+}
+.about-h {
+    margin-top: .75em;
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    animation: 1.5s ease-in-out 0s dropDown;
+}
+.about-h3 {
+    font-size: 26px;
+    margin-bottom: 1em;
+    color: #757575;
+    animation: 1.5s ease-in-out 0s slideInFromLeft;
 }
 .about-me {
     font-size: 18px;
-    font-weight: 600;
-    padding: 4em 0 4em 0;
-    border-top: 12px solid #006bb6;
-    border-bottom: 12px solid #006bb6;
-    border-radius: 10px;
+    color: black;
+    animation: 1.5s ease-in-out 0s slide;
 }
-.about-heading {
-    padding: 2em 0;
+.about-links {
+    width: 100%;
+    height: 55px;
     display: flex;
     justify-content: center;
+    animation: 1.5s ease-in-out 0s slideUp;
 }
-.about-h {
-    font-weight: 600;
+.bottom {
+    font-size: 2.5em;
+    color: #006bb6;
+    text-align: center;
+    margin: 0em 1em 1em 1em;
+}
+/* picture */
+.about-picture {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.img-fluid {
+    width: 65%;
+    height: 80%;
 }
 
-/* hexagon only styles */
-.hexagon {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    background: #006bb6;
-    margin: 80px auto;
-    align-items: center;
+
+/* animation */
+@keyframes slideInFromLeft {
+    0%{
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
-.hexagon::before,
-.hexagon::after {
-    content: "";
-    position: absolute;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
-.hexagon::before {
-    bottom: 100%;
-    border-bottom: 50px solid #006bb6;
+
+@keyframes dropDown {
+    0% {
+        transform: translateY(-200%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
-.hexagon::after {
-    top: 100%;
-    border-top: 50px solid #006bb6;
-}
-.hex-heading {
-    text-align: center;
-    margin-bottom: .5em;
-}
-.hex-text {
-    padding: 0 2em 0 2em;
-    text-align: center;
-}
-.hex-row {
-    padding-top: 4em;
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(200%);
+    } 
+    100% {
+        transform: translateY(0);
+    }
 }

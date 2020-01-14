@@ -11,10 +11,15 @@
     position: relative;
 }
 .about-h {
-    margin-top: .75em;
-    font-size: 70px;
-    font-family: 'Permanent Marker', cursive;
+    margin-top: .5em;
+    font-size: 80px;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 600;
+    /* font-family: 'Permanent Marker', cursive; */
     animation: 1.5s ease-in-out 0s dropDown;
+}
+.about-h span {
+    margin-left: 20px;
 }
 .about-h3 {
     font-size: 26px;
@@ -84,7 +89,7 @@
 
 @keyframes slideUp {
     0% {
-        transform: translateY(200%);
+        transform: translateY(300%);
     } 
     100% {
         transform: translateY(0);

@@ -5,7 +5,7 @@ const Personal = () => {
         <div className="container about-container">
             <div className=" row personal-row">
                 <div className="col-md-6 personal-info">
-                    <h1 className="about-h">About me</h1>
+                    <h1 className="about-h">About <span>me</span></h1>
                     <h4 className="about-h3">
                         I'm a full stack developer from Foley, Minnesota.
                     </h4>

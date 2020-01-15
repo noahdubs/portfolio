@@ -13,8 +13,8 @@ const Navbar = props => {
         <nav className="navbar nav-custom navbar-expand-md navbar-dark">
             <div className="container navbar-container">
                 <li className="navbar-brand" id="nav-brand">NW </li>
-                <button className="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon toggler"></span>
+                <button className="navbar-toggler border" id="nav-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon toggler" id="nav-span"></span>
                 </button> 
                 <Items 
                     activeStyles={activeStyles}
@@ -25,6 +25,5 @@ const Navbar = props => {
         
     )
 }
-
 
 export default Navbar

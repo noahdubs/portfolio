@@ -55,3 +55,10 @@
     color: #0078FF !important;
     text-decoration: none;
 }
+#nav-toggler {
+    border: 1px solid #0078FF !important;
+    background-color: #0078FF;
+}
+#nav-span {
+    background-color: #0078FF;
+}

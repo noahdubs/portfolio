@@ -40,8 +40,8 @@ class Main extends React.Component {
         let current = this.state.current
         return (
             <ReactCssTransitionGroup
-                transitionName="switch"
-                transitionEnterTimeout={800}
+                transitionName="example"
+                transitionEnterTimeout={1000}
                 transitionLeaveTimeout={500}>
                 
                 {current}

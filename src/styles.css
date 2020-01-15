@@ -28,6 +28,57 @@ body, html{
     transition: opacity 500ms ease-in;
 }
 
+.example-enter {
+    opacity: 0;
+    transform: translate(-200%,0);
+    transform: translate3d(-200%,0,0);
+}
+.example-enter.example-enter-active{
+    opacity: 1;
+	transition: opacity 1s ease;
+	transform:   translate(0,0);
+	transform: translate3d(0,0,0);
+	transition-property: transform, opacity;
+	transition-duration: 1000ms;
+	transition-timing-function: cubic-bezier(0.175, 0.665, 0.320, 1), linear;
+}
+.example-leave {
+	opacity: 1;
+	transform:   translate(0,0,0);
+	transform: translate3d(0,0,0);
+    transition-property: transform, opacity;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.175, 0.665, 0.320, 1), linear;
+}
+.example-leave.example-leave-active {
+	opacity: 0;
+	transform:   translate(100%,0);
+	transform: translate3d(100%,0,0);
+}
+
+.shape-enter {
+    transform: scale(0);
+  }
+  
+  .shape-enter.shape-enter-active {
+    transform: scale(1);
+    transition: all .5s ease-in;
+  }
+  
+  .shape-leave {
+    transform: scale(1);
+  }
+  
+  .shape-leave.shape-leave-active {
+    transform: scale(0);
+    transition: all .3s ease-in;
+  }
+  
+  .shape-menu {
+    display: block;
+    width: 100%;
+    margin:  30px 0;
+  }
 
 
 

@@ -8,7 +8,6 @@ const Navbar = props => {
     } else if(props.currentStr === "Projects"){
         activeStyles.projects = {color: '#0078FF'}
     } 
-    console.log(activeStyles)
     return (
         <nav className="navbar nav-custom navbar-expand-md navbar-dark">
             <div className="container navbar-container">

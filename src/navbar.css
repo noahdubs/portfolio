@@ -1,7 +1,7 @@
 /* Navbar only styles */
 .nav-custom {
-    height: 10%;
-    z-index: 9999;
+    height: 80px;
+    z-index: 1000;
     background: transparent;
     color: #757575;
     box-shadow: 0 8px 8px -5px #757575;
@@ -16,16 +16,7 @@
     justify-content: flex-end;
 }
 
-#nav-brand {
-    font-weight: 700;
-    font-family: 'Yellowtail', cursive;
-    font-size: 45px;
-    color: #0078FF;
 
-}
-#nav-brand:hover{
-    color: #757575;
-}
 
 .list-item {
     padding: 0 .5em;
@@ -61,4 +52,40 @@
 }
 #nav-span {
     background-color: #0078FF;
+}
+
+
+#nav-brand {
+    font-weight: 700;
+    font-family: 'Yellowtail', cursive;
+    font-size: 45px;
+    color: #0078FF;
+}
+#nav-brand:hover{
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+#nav-brand-l:hover {
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    font-size: 50px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }

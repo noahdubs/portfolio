@@ -1,7 +1,7 @@
 import React from 'react'
 import Landing from './Landing'
 import About from './about/About'
-import Projects from './Projects'
+import Projects from './projects/Projects'
 import ReactCssTransitionGroup from 'react-addons-css-transition-group'
 
 class Main extends React.Component {

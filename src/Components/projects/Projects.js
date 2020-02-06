@@ -3,14 +3,8 @@ import Navbar from '../navbar/Navbar'
 import Content from './Content'
 
 class Projects extends React.Component {
-    state = {
-        leftCorner: false
-    }
-
-    componentDidMount = () => {
-
-    }
-
+    state = {}
+    
     render() {
         console.log(this.state)
         return (

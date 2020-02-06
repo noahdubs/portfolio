@@ -1,5 +1,7 @@
 import React from 'react'
-import Modal from './Modal'
+import WorkoutModal from './WorkoutModal'
+import BurgerModal from './BurgerModal'
+import BlogModal from './BlogModal'
 
 const Content = props => {
     return (
@@ -8,37 +10,29 @@ const Content = props => {
                 <h1 className="project-h">Projects</h1>
             </div>
             <div className="row">
-                <div className="col-6 img-div">
-                    <p className="project-title">Project</p>
+                <div className="col-12 img-div workout">
+                    <p className="project-title">Total Fitness</p>
                     <button className="btn see-more-btn" 
                             data-toggle="modal" 
-                            data-target="#exampleModalCenter"
+                            data-target="#workoutModal"
                     >Learn more</button>
-                    <Modal />
+                    <WorkoutModal />
                 </div>
-                <div className="col-6 img-div">
-                    <p className="project-title">Project</p>
+                <div className="col-12 img-div burger-stop">
+                    <p className="project-title">Burger Stop</p>
                     <button className="btn see-more-btn" 
                             data-toggle="modal" 
-                            data-target="#exampleModalCenter"
+                            data-target="#burgerModal"
                     >Learn more</button>
-                    <Modal />
+                    <BurgerModal />
                 </div>
-                <div className="col-6 img-div">
-                    <p className="project-title">Project</p>
+                <div className="col-12 img-div blacktop-blog">
+                    <p className="project-title">Blacktop Blog</p>
                     <button className="btn see-more-btn" 
                             data-toggle="modal" 
-                            data-target="#exampleModalCenter"
+                            data-target="#blogModal"
                     >Learn more</button>
-                    <Modal />
-                </div>
-                <div className="col-6 img-div">
-                    <p className="project-title">Project</p>
-                    <button className="btn see-more-btn" 
-                            data-toggle="modal" 
-                            data-target="#exampleModalCenter"
-                    >Learn more</button>
-                    <Modal />
+                    <BlogModal />
                 </div>
             </div>
         </div>

@@ -28,19 +28,32 @@
 .img-div {
     padding: 0;
     margin: 0;
-    background-image: url("https://i.imgur.com/YvOSdYO.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: center;
-    height: 55%;
+    height: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px 2px #6C6C6C;
 }
-.img-div:hover {
+
+.workout {
+    background-image: url("https://res.cloudinary.com/dz4rcplz8/image/upload/v1580947813/extra/Screenshot_from_2020-02-05_17-47-32_epizae.png");
+}
+.burger-stop {
+    background-image: url("https://res.cloudinary.com/dz4rcplz8/image/upload/v1580947855/extra/Screenshot_from_2020-02-05_17-55-45_ydf7o5.png");
+}
+.blacktop-blog {
+    background-image: url("https://res.cloudinary.com/dz4rcplz8/image/upload/v1580947796/extra/Screenshot_from_2020-02-05_17-32-31_ynlcft.png");
+}
+.workout:hover, .burger-stop:hover, .blacktop-blog:hover {
     background-image: none;
     background-color: #0078FF;
-    animation: .5s ease-in 0s fadeIn1;
 }
+
+
+
 .img-div .project-title {
     display: none;
 }
@@ -72,8 +85,8 @@
     justify-content: center;
     top: 30%;
     color: white;
-    font-size: 20px;
-    animation: .3s ease-in 0s dropDownTitle;
+    font-size: 40px;
+    animation: .2s ease-in 0s dropDownTitle;
     font-weight: 600;
 }
 .invs-btn {
@@ -89,18 +102,21 @@
     position: absolute;
     display: flex;
     justify-content: center;
+    align-self: center;
     bottom: 30%;
-    height: 35px;
-    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    width: 300px;
     color: #0078FF;
     background-color: white;
     font-weight: 600;
     animation: .2s ease-in 0s slideUpButton;
     border: 2px solid #0078FF;
+    font-size: 20px;
 }
 .see-more-btn:hover{
     background-color: #0078FF;
-    border: 2px solid #0078FF;
+    border: 2px solid white;
     color: white;
 }
 .modal {
@@ -110,7 +126,7 @@
 
 @keyframes dropDownTitle {
     0% {
-        transform: translateY(-200%);
+        transform: translateY(-400%);
     }
     100% {
         transform: translateY(0%);

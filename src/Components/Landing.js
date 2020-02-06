@@ -2,7 +2,6 @@ import React from 'react'
 import LandingNav from './navbar/LandingNav'
 
 const Landing = props => {
-    console.log(props)
     return (
         <div className="landing-div">
             <LandingNav 
@@ -16,7 +15,7 @@ const Landing = props => {
                     on creating clean and user friendly web pages     
                     </p>
                     <button onClick={props.handleClick} name="Projects" className="landing-btn">
-                        View my work <i class="fas fa-arrow-right landing-icon"></i></button>
+                        View my work <i className="fas fa-arrow-right landing-icon"></i></button>
                 </div>
             </div>
         </div>

@@ -33,6 +33,7 @@ const Personal = () => {
                     <img src="https://i.imgur.com/wyYpOZ9.jpg"
                          className="img-fluid" 
                          id="about-pic"
+                         alt="noah winkelman"
                     />
                 </div>
             </div>

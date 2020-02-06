@@ -5,11 +5,11 @@ const Carousel = props => {
         <div className="carousel slide" id={props.current} data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={props.first} className=" carousel-img" />
+                    <img src={props.first} className=" carousel-img" alt="workout profile" />
                 </div>
                 {props.pictures.map(picture => (
                     <div className="carousel-item">
-                        <img src={picture} className="carousel-img" alt={picture} />
+                        <img src={picture} className="carousel-img" alt="total fitness site page" />
                     </div>
                 ))}
                 <a className="carousel-control-prev" href={`#${props.current}`} role="button" data-slide="prev">

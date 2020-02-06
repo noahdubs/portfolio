@@ -25,9 +25,9 @@ const BlogModal = () => {
                         </div>
                         <h5>Tech used</h5>
                         <div className="modal-tech-used">
-                            <img className="tech-used-img node" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" />
-                            <img className="tech-used-img express" src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" />
-                            <img className="tech-used-img mongo" src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" />
+                            <img alt="nodejs logo" className="tech-used-img node" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" />
+                            <img alt="express logo" className="tech-used-img express" src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" />
+                            <img alt="mongoDB logo" className="tech-used-img mongo" src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" />
                         </div>
                         <div className="modal-bottom-e">
                             <a href="https://github.com/noahdubs/blacktop-blog" className="btn view-code-btn">View code <i class="fab fa-github view-code-icon"></i></a>

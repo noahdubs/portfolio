@@ -1,35 +1,45 @@
 import React from 'react'
+import Carousel from './Carousel'
+import BurgerPage from './pictures/burger-burgerPage.png' 
+import BurgerProfile from './pictures/burger-profile.png'
+import BurgerIndex from './pictures/burger-index.png'
 
 const BurgerModal = () => {
+    const pictures = [
+        BurgerProfile, BurgerIndex
+    ]
+    const current = "BurgerCarousel"
     return (
         <div className="modal fade" id="burgerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <img className="modal-img" src="https://i.imgur.com/YvOSdYO.png" />
-                    </div>
-                    <div class="modal-body">
-                        <h2>Burger Stop</h2>
-                    </div>
-                    <div className="modal-about">
-                        <p>about burger stop</p>
-                    </div>
-                    <div className="tech-used">
-                        <p>Tech used</p>
+            <div className="modal-dialog modal-lg" role="document">
+                <div className="modal-content">
+                    <Carousel first={BurgerPage} pictures={pictures} current={current} />
+                    <div className="modal-body">
+                        <div className="modal-header-e">
+                            <h2>Burger Stop</h2>
+                        </div>
+                        <div className="modal-about-e">
+                            <p>Full stack burger review site where users can leave reviews on burgers, leave comments, and find 
+                                out where the best burgers are. Google maps is used to show the location of each 
+                                burger's restaraunt. All users have a profile page showing their info and all of their
+                                burger reviews. 
+                            </p>
+                        </div>
+                        <h5>Tech used</h5>
                         <div className="modal-tech-used">
+                            <img className="tech-used-img maps" src="https://skymapglobal.com/wp-content/uploads/2017/11/google-maps-api-logo-e1510144686715.png" />
                             <img className="tech-used-img node" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" />
                             <img className="tech-used-img express" src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" />
                             <img className="tech-used-img mongo" src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" />
                         </div>
-                    </div>
-                    
-                    <div class="modal-bottom">
-                        <a href="https://github.com/noahdubs/burger-stop" className="btn view-code-btn">View code <i class="fab fa-github view-code-icon"></i></a>
-                        <a href="github.com" className="btn view-code-btn">View live <i class="fas fa-desktop view-code-icon"></i></a>
-                        
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <div className="modal-bottom-e">
+                            <a href="https://github.com/noahdubs/burger-stop" className="btn view-code-btn">View code <i class="fab fa-github view-code-icon"></i></a>
+                            <a href="github.com" className="btn view-code-btn">View live <i class="fas fa-desktop view-code-icon"></i></a>
+                            
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span className="close-modal" aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

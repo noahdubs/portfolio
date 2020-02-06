@@ -39,13 +39,13 @@
 }
 
 .workout {
-    background-image: url("https://res.cloudinary.com/dz4rcplz8/image/upload/v1580947813/extra/Screenshot_from_2020-02-05_17-47-32_epizae.png");
+    background-image: url("../Components/projects/pictures/workout-landing.png");
 }
 .burger-stop {
-    background-image: url("https://res.cloudinary.com/dz4rcplz8/image/upload/v1580947855/extra/Screenshot_from_2020-02-05_17-55-45_ydf7o5.png");
+    background-image: url("../Components/projects/pictures/burger-landing.png");
 }
 .blacktop-blog {
-    background-image: url("https://res.cloudinary.com/dz4rcplz8/image/upload/v1580947796/extra/Screenshot_from_2020-02-05_17-32-31_ynlcft.png");
+    background-image: url("../Components/projects/pictures/blog-landing.png");
 }
 .workout:hover, .burger-stop:hover, .blacktop-blog:hover {
     background-image: none;
@@ -126,7 +126,7 @@
 
 @keyframes dropDownTitle {
     0% {
-        transform: translateY(-400%);
+        transform: translateY(-250%);
     }
     100% {
         transform: translateY(0%);
@@ -135,7 +135,7 @@
 
 @keyframes slideUpButton {
     0% {
-        transform: translateY(400%);
+        transform: translateY(250%);
     } 
     100% {
         transform: translateY(0%);
@@ -157,21 +157,3 @@
         opacity: 1;
     }
 }
-/* @media (max-width: 576px) {
-    .img-div {
-        height: 20%;
-    }
-} */
-
-/* @media (min-width: 576px){
-    .img-div {
-        height: 60%;
-    }
-} */
-
-/* @media (max-width: 576px){
-    .img-div {
-        margin-bottom: 20px;
-        height: 30%;
-    }
-}*/

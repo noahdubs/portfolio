@@ -9,12 +9,13 @@ const Personal = () => {
                     <h4 className="about-h3">
                         I'm a full stack developer from Foley, Minnesota.
                     </h4>
-                    <p className="about-me">My name is Noah Winkelman. I am a self taught programmer.
-                        After playing college baseball for two years at Ranger College,
-                        I decided to learn how to code.
-                        I live in Minnesota but I am well traveled and open to living pretty much anywhere. 
-                        In my free time, I enjoy working out and hanging out with my friends.
-                        I am a hard working individual with goals and plans to achieve them.
+                    <p className="about-me">My name is Noah Winkelman. I am a full stack developer.
+                        I live in Minnesota, but I am well traveled and open to living pretty much anywhere. 
+                        After playing two years of college baseball, I decided to start to learn how to code. 
+                        Once I started learning about web development, I was hooked. The whole development process 
+                        is very interesting to me, from the back to the front end. 
+                        Every day I work hard to improve my development skills, I believe that hard work is the only sure way 
+                        to become successful. In my free time, I enjoy working out and hanging out with my friends.
                     </p>
                     <div className="about-links">
                         <a href="https://github.com/noahdubs">
@@ -22,6 +23,9 @@ const Personal = () => {
                         </a>
                         <a href="https://www.linkedin.com/in/noah-winkelman-27153a193/">
                             <i className="fab fa-linkedin bottom"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/12335493/noahdubs?tab=profile">
+                            <i className="fab fa-stack-overflow bottom"></i>
                         </a>
                     </div>
                 </div>

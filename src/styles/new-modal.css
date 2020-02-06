@@ -1,0 +1,133 @@
+.modal {
+    height: 105%;
+}
+.modal-dialog {
+    height: 100%;
+}
+.modal-content {
+    height: 100%;
+}
+.carousel {
+    height: 50%;
+    border-bottom: 3px solid #CFCFCF;
+}
+.carousel-inner {
+    
+    width: 100%;
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.modal-tech-used {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.tech-used-img {
+    max-width: 23.5%;
+    max-height: 100%;
+    margin-right: 10px;
+}
+.express {
+    max-height: 75%;
+}
+.mongo {
+    max-height: 80%;
+}
+.close {
+    font-size: 50px;
+}
+.view-code-btn {
+    background-color: #0078FF;
+    margin-left: 30px;
+    color: white;
+    width: 150px;
+    font-size: 18px;
+    border: 2px solid #0078FF;
+    height: 45px;
+}
+.view-code-btn:hover {
+    color: #0078FF;
+    animation: .5s ease-out 0s fadeOut forwards;
+}
+.view-code-icon{
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+@keyframes fadeOut {
+    0% {
+        background-color: #0078FF;
+    }
+    100% {
+        background-color: white;  
+    }
+}
+
+.modal-header-e {
+    border-bottom: 2px solid #CFCFCF;
+}
+.modal-header-e h2 {
+    font-weight: 600;
+}
+.modal-about-e {
+    margin-bottom: 25px;
+}
+.modal-about-e p {
+    color: black;
+}
+.modal-body h5 {
+    color: #0078FF;
+    font-weight: 600;
+    border-bottom: 2px solid #CFCFCF;
+}
+.close-modal {
+    color: #0078FF;
+}
+
+
+.WorkoutCarousel {
+    font-size: 40px;
+    color: #0078FF;
+}
+.BurgerCarousel {
+    font-size: 40px;
+    color: white;
+}
+.BlogCarousel {
+    font-size: 40px;
+    color: white;
+}
+
+.modal-bottom-e {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 500px){
+    .carousel {
+        height: 40%;
+    }
+    .view-code-btn {
+        width: 180px;
+        margin: 0;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .view-code-icon {
+        font-size: 15px;
+    }
+    .see-more-btn {
+        width: 80%;
+    }
+}

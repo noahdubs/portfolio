@@ -2,11 +2,13 @@ body, html{
     background: #ffffff;
     color: #0078FF;
     height: 100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 #root {
     height: 100%;
+    width: 100%;
 }
 .main-div {
     height: 100%;

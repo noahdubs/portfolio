@@ -2,6 +2,7 @@ import React from 'react'
 import Items from './Items'
 
 const Navbar = props => {
+    let styles = "Other"
     let activeStyles = {home: {}, about: {}, projects: {}, resume: {}}
     if(props.currentStr === "About"){
         activeStyles.about = {color: '#0078FF'}
@@ -16,6 +17,7 @@ const Navbar = props => {
                     <span className="navbar-toggler-icon toggler" id="nav-span"></span>
                 </button> 
                 <Items 
+                    styles={styles}
                     activeStyles={activeStyles}
                     handleClick={props.handleClick}
                 />

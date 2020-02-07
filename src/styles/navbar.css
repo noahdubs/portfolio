@@ -62,3 +62,17 @@
     color: #0078FF;
 }
 
+
+@media screen and (max-width: 767px){
+    .navbar-collapse {
+        background: white;
+        border: 1px solid #0078FF;
+        border-top: none;
+        padding: 10px;
+    }
+    .collapse-landing {
+        background-color: rgba(0, 120, 255, 0.5);
+        border: none;
+
+    }
+}

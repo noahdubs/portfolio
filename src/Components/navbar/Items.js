@@ -2,8 +2,12 @@ import React from 'react'
 import Pdf from '../../Resume.pdf'
 
 const Items = props => {
+    let styles = ""
+    if(props.page === "Landing") {
+        styles = "collapse-landing"
+    }
     return (
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className={`collapse navbar-collapse ${styles}`} id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto"></ul>
             <ul className="navbar-nav navbar-right">
                 <li className="list-item" name="Home" style={props.activeStyles.home} onClick={props.handleClick}>Home</li>

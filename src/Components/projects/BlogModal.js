@@ -31,7 +31,7 @@ const BlogModal = () => {
                         </div>
                         <div className="modal-bottom-e">
                             <a href="https://github.com/noahdubs/blacktop-blog" className="btn view-code-btn">View code <i class="fab fa-github view-code-icon"></i></a>
-                            <a href="github.com" className="btn view-code-btn">View live <i class="fas fa-desktop view-code-icon"></i></a>
+                            <a href="https://blacktop-blog.herokuapp.com/" className="btn view-code-btn">View live <i class="fas fa-desktop view-code-icon"></i></a>
                             
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span className="close-modal" aria-hidden="true">&times;</span>

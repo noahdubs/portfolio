@@ -4,6 +4,7 @@ import Items from './Items'
 const LandingNav = props => {
     let activeStyles = {home: {color:"#0078FF"}, about: {}, projects: {},
      resume: {color: "white"}}
+    let page = "Landing"
     return (
         <nav className="navbar landing-nav navbar-expand-md navbar-dark">
             <div className="container navbar-container">
@@ -12,6 +13,7 @@ const LandingNav = props => {
                     <span className="navbar-toggler-icon toggler"></span>
                 </button> 
                 <Items 
+                    page={page}
                     activeStyles={activeStyles}
                     handleClick={props.handleClick}
                 />

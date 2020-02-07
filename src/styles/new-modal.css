@@ -9,7 +9,7 @@
 }
 .carousel {
     height: 50%;
-    border-bottom: 3px solid #CFCFCF;
+    border-bottom: 2px solid #0078FF;
 }
 .carousel-inner {
     text-align: center;
@@ -114,20 +114,111 @@
     justify-content: space-evenly;
 }
 
-@media (max-width: 500px){
+@media (max-width: 350px){
+    .modal-tech-used {
+        margin: 0;
+    }
     .carousel {
-        height: 40%;
+        height: 25%;
+    }
+    .WorkoutCarousel, .BurgerCarousel, .BlogCarousel {
+        font-size: 30px;
+    }
+    .modal-about-e {
+        padding-top: 15px;
     }
     .view-code-btn {
-        width: 180px;
-        margin: 0;
+        height: 30px;
+        font-size: 15px;
+        padding: 0;
+        margin: 5px;
+        padding-top: 2px;
+    }
+    .view-code-icon {
         margin-left: 5px;
         font-size: 15px;
     }
-    .view-code-icon {
-        font-size: 15px;
+    .modal-body {
+        padding-top: 10px;
+
     }
-    .see-more-btn {
-        width: 80%;
+
+}
+
+@media (min-width: 351px) {
+    .modal {
+        height: 90%;
+    }
+    .carousel {
+        height: 27% !important; 
+    } 
+    .modal-body {
+        margin-top: 10px;
+    }
+    .WorkoutCarousel, .BurgerCarousel, .BlogCarousel {
+        font-size: 32px;
+    }
+    .modal-about-e {
+        padding-top: 15px;
+    }
+    .modal-tech-used {
+        margin: 0;
+    }
+    .view-code-btn {
+        height: 40px;
+        font-size: 16px;
+        margin: 5px;
+        padding-top: 3px;
+    }
+    .modal-bottom-e {
+        margin-top: 20px;
+    }
+    .view-code-icon {
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    .carousel-img {
+        height: 100%;
     }
 }
+
+@media (min-width: 420px) {
+    .modal {
+        height: 95%;
+    }
+    .carousel {
+        height: 50% !important;
+    }
+    .modal-body {
+        margin-top: 30px;
+    }
+    .WorkoutCarousel, .BurgerCarousel, .BlogCarousel {
+        font-size: 50px;
+    }
+    .modal-about-e {
+        padding-top: 15px;
+    }
+    .modal-tech-used {
+        margin-bottom: 50px;
+    }
+    h5 {
+        margin-top: 50px;
+    }
+    .view-code-btn {
+        height: 45px;
+        font-size: 18px;
+        margin-left: 5px;
+        padding-top: 7px;
+    }
+    .modal-bottom-e {
+        display: inline;
+    }
+    .view-code-icon {
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    .carousel-img {
+        height: 100%;
+    }
+}
+

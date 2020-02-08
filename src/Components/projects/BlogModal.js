@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from './Carousel'
-import BlogIndex from './pictures/blog-index.png'
-import BlogProfile from './pictures/blog-profile.png'
-import BlogShow from './pictures/blog-show.png'
+import BlogIndex from './pictures/blog-index_1_40.png'
+import BlogProfile from './pictures/blog-profile_40.png'
+import BlogShow from './pictures/blog-show_40.png'
 
 const BlogModal = () => {
     const current = "BlogCarousel"

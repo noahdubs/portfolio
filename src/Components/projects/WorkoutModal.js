@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from './Carousel'
-import workoutProfile from "./pictures/workout-profile.png"
-import workoutShow from './pictures/workout-show.png'
-import workoutExercises from './pictures/workout-exercises.png'
-import workoutNew from './pictures/workout-new.png'
+import workoutProfile from "./pictures/workout-profile_40.png"
+import workoutShow from './pictures/workout-show_40.png'
+import workoutExercises from './pictures/workout-exercises_40.png'
+import workoutNew from './pictures/workout-new_40.png'
 
 const WorkoutModal = () => {
     const pictures = [

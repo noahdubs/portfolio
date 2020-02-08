@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from './Carousel'
-import BurgerPage from './pictures/burger-burgerPage.png' 
-import BurgerProfile from './pictures/burger-profile.png'
-import BurgerIndex from './pictures/burger-index.png'
+import BurgerPage from './pictures/burger-burgerPage_40.png' 
+import BurgerProfile from './pictures/burger-profile_40.png'
+import BurgerIndex from './pictures/burger-index_40.png'
 
 const BurgerModal = () => {
     const pictures = [

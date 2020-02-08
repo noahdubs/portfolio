@@ -39,13 +39,13 @@
 }
 
 .workout {
-    background-image: url("../Components/projects/pictures/workout-landing.png");
+    background-image: url("../Components/projects/pictures/workout-landing_3_40.png");
 }
 .burger-stop {
-    background-image: url("../Components/projects/pictures/burger-landing.png");
+    background-image: url("../Components/projects/pictures/burger-landing_40.png");
 }
 .blacktop-blog {
-    background-image: url("../Components/projects/pictures/blog-landing.png");
+    background-image: url("../Components/projects/pictures/blog-landing_40.png");
 }
 .workout:hover, .burger-stop:hover, .blacktop-blog:hover {
     background-image: none;

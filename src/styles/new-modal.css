@@ -116,7 +116,7 @@
 
 @media (max-width: 350px){
     .modal {
-        height: 95%;
+        height: 100%;
     }
     .modal-tech-used {
         margin: 0;
@@ -145,12 +145,11 @@
         padding-top: 10px;
 
     }
-
 }
 
 @media (min-width: 351px) {
     .modal {
-        height: 95%;
+        height: 100%;
     }
     .carousel {
         height: 27% !important; 

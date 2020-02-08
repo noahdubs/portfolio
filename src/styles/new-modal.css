@@ -153,13 +153,13 @@
         height: 27% !important; 
     } 
     .modal-body {
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .WorkoutCarousel, .BurgerCarousel, .BlogCarousel {
         font-size: 32px;
     }
     .modal-about-e {
-        padding-top: 15px;
+        padding-top: 10px;
     }
     .modal-tech-used {
         margin: 0;
@@ -171,7 +171,7 @@
         padding-top: 3px;
     }
     .modal-bottom-e {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .view-code-icon {
         margin-left: 5px;

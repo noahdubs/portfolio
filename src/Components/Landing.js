@@ -10,7 +10,7 @@ const Landing = props => {
             />
             <div className="layer">
                 <div className="landing-content">
-                    <h1 className="landing-h">NOAH WINKELMAN</h1>
+                    <h1 className="landing-h">NOAH WINKELMAN YES</h1>
                     <p className="landing-p">I'm a full stack developer focused
                     on creating clean and user friendly web pages     
                     </p>

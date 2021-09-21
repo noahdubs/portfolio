@@ -35,7 +35,6 @@ class Main extends React.Component {
         })
     }
 
-
     render() {
         let current = this.state.current
         return (
